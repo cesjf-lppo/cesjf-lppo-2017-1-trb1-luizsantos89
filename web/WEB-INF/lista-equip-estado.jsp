@@ -67,7 +67,7 @@
                 </div>
                 <div id="rodape">
                     Desenvolvido por <a href="mailto:luiz.santos89@yahoo.com.br">Luiz Cláudio Afonso dos Santos</a> para a disciplina de Laboratório de Persistência de Objetos.<br />
-                    Centro de Ensino Superior de Juiz de Fora - Bacharelado em Sistemas de Informação.
+                    Centro de Ensino Superior de Juiz de Fora -- Bacharelado em Sistemas de Informação.
                 </div>
             </div>
         </center>
