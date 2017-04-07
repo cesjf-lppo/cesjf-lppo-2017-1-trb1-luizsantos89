@@ -1,0 +1,44 @@
+body, html {
+    background: #99FF99;
+    font: Arial  16pt  normal;
+}
+
+a {
+    color: darkgreen;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#barra-menus {
+    height: 40px;
+    background: #009900;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#barra-menus a {
+    color: white;
+    padding: 20px;
+    font-size: 18pt;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+#pagina {
+    width: 900px;
+    text-align: justify;
+}
+
+#conteudo {
+    padding: 15px;
+    height: 500px;
+}
+
+#rodape {
+    font-size: smaller;
+    text-align: center;
+}
