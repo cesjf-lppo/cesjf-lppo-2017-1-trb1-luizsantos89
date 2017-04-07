@@ -33,7 +33,7 @@ public class EditaEquipamento extends HttpServlet {
         try {
             //Pegar os dados do banco
             Class.forName("org.apache.derby.jdbc.ClientDriver");
-            Connection conexao = DriverManager.getConnection("jdbc:derby://localhost:1527//lppo-2017-1", "usuario", "usuario");
+            Connection conexao = DriverManager.getConnection("jdbc:derby://localhost:1527//lppo-2017-1", "usuario", "senha");
              
              Statement operacao = conexao.createStatement();
              ResultSet resultado = operacao.executeQuery("SELECT * FROM equipamento WHERE id="+id);

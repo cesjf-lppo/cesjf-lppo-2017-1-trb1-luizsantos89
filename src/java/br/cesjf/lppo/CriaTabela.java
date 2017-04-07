@@ -25,7 +25,7 @@ public class CriaTabela extends HttpServlet {
         try {
             Class.forName("org.apache.derby.jdbc.ClientDriver");
             String url = "jdbc:derby://localhost:1527/lppo-2017-1";  
-            Connection conexao = DriverManager.getConnection(url, "usuario", "usuario");
+            Connection conexao = DriverManager.getConnection(url, "usuario", "senha");
             System.out.println("Conexao aberta com sucesso");
 
             String sql = "CREATE TABLE equipamento ("
